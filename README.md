@@ -1,1 +1,1 @@
-# small_SE_projects
+# Small systems engineering projects
