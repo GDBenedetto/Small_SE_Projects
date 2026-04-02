@@ -86,7 +86,7 @@ The system operates on an Arduino Uno.
 
 ## 10. Verification Methods
 
-| Requirement | Method        | Description                          |
+| Requirement | Method       | Description                          |
 |-------------|--------------|--------------------------------------|
 | FR-001–003  | Test         | Verify mapping and servo response    |
 | FR-004      | Measurement  | Check PWM signal on pin D9           |
@@ -98,10 +98,15 @@ The system operates on an Arduino Uno.
 
 ## 11. Traceability (optional)
 
-| Requirement | Source                  |
-|-------------|-------------------------|
+| Requirement | Source                   |
+|-------------|--------------------------|
 | FR-001–005  | System functionality     |
 | BR-001–004  | Dynamic system behavior  |
 | NFR-001–005 | Performance & constraints|
 
 ---
+
+
+## 📄 Documentation
+
+- [AI SRS Guide](/small_SE_projects/docs/AI_SRS_GUIDE.md)
