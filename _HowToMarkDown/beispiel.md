@@ -4,6 +4,18 @@ title: "Vollständiges Markdown-Beispiel"
 author: "Max Mustermann"
 date: 2026-04-11
 bibliography: refs.bib
+style: |
+  header {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  main {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 
 ---
 # Überschrift 1: **Fette** und *kursiv* Text
@@ -122,6 +134,7 @@ title: slide with two columns
 </div>
 
 ---
+<!-- _header: slide with two columns - solution 2 **Marp** -->
 ## slide with two columns - solution 2 **Marp**
 
 Markdown Presentation Ecosystem
